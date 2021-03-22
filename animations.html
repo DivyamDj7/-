@@ -1,0 +1,47 @@
+<html>
+
+<head>
+    <title>
+        Animations
+    </title>
+    <style>
+        .box {
+            width: 360px ;
+            height: 435px;
+            border: black 3px solid;
+            position: relative;
+            animation-name: sample;
+            animation-duration: 5s;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+            animation-timing-function: cubic-bezier(0,0.5,1,0);
+        
+        }
+        
+
+        @keyframes sample {
+            0% {
+                left: 0px; background-color: white;
+            }
+
+            50% {
+                left: 500px; background-image: url(hey.gif);
+            }
+
+            100% {
+                left: 0px; background-color: white;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>
+     LOL ITS TOO LATE , 😈
+    </h1>
+    <div class="box"></div>
+</body>
+
+</html>
